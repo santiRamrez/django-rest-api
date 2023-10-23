@@ -1,0 +1,16 @@
+POST 127.0.0.1:8000/api/login/
+Content-Type: application/json
+
+{"username": "Juanito", "password": "alimaña"}
+
+###
+POST 127.0.0.1:8000/api/signup/
+Content-Type: application/json
+
+{"username": "Juanito", "password": "alimaña", "email":"juanito@alimaña.com" }
+
+###
+GET 127.0.0.1:8000/api/test_token/
+Content-Type: application/json
+Authorization: Token b824368daa122281865b99899f3ac90b4d26e977
+

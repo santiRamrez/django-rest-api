@@ -1,0 +1,9 @@
+{
+  "token": "4d4dd4fb4a8486919b54a5c484c187269707a4f4",
+  "user": {
+    "id": 1,
+    "username": "tito",
+    "password": "lagasolina",
+    "email": "daddy@daddyyankee.com"
+  }
+}
