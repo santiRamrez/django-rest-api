@@ -26,24 +26,59 @@ Recibí un dataset *no sql - o una colección de libros para ser más preciso* y
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/santiRamrez/django-rest-api
 ```
 
 Go to the project directory
 
 ```bash
-  cd my-project
+  cd django-rest-api
 ```
 
-Install dependencies
+Crete Python Virtual Enviroment (On Windows)
 
 ```bash
-  npm install
+  py -m venv .venv
 ```
 
-Start the server
+Activate the Virtual Environment (On Windows Powershell)
 
 ```bash
-  npm run start
+  ./venv/Scripts/activate.ps1
 ```
 
+Install all the requeriments
+
+```bash
+  pip install -r requirements.txt
+```
+
+Go to the Django Project
+
+```bash
+  cd readconnect
+```
+
+Update the changes at the models of the Quickstart Application
+
+```bash
+  py manage.py makemigrations quickstart
+```
+
+Update the changes that the db.sqlite3 might not have. 
+
+```bash
+  py manage.py migrate
+```
+
+Run the local server
+
+```bash
+  py manage.py runserver
+```
+
+Check the endpoints using **http**
+
+```bash
+  http://127.0.0.1:8000/api/
+```
