@@ -35,7 +35,7 @@ Go to the project directory
   cd django-rest-api
 ```
 
-Crete Python Virtual Enviroment (On Windows)
+Create Python Virtual Enviroment (On Windows)
 
 ```bash
   py -m venv .venv
